@@ -1,11 +1,85 @@
-<!-- index.html 내용은 이전과 동일하며, 하단에 footer 포함됨 -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>병원 마케팅 홈페이지</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <div class="text-box">
+        <h1>결과 없는 광고는,<br>비용일 뿐입니다</h1>
+        <p>우리는 병원에 맞는 전략으로<br>성과로 이어지는 광고를 만듭니다</p>
+        <a href="#contact" class="cta">병원 로비 꽉 채우기</a>
+      </div>
+    </section>
 
-<footer class="footer">
-  <div class="footer-info">
-    <p>상호: 주식회사 나봄 | 대표: 김현진 | 사업자등록번호: 560-87-02893</p>
-    <p>주소: 서울특별시 강남구 테헤란로 123, 9층 | 통신판매업신고번호: 제2025-서울강남-0000호</p>
-    <p>대표전화: 070-4022-0040 | 이메일: nabom0217@gmail.com</p>
-    <p><a href="/privacy.html" target="_blank">개인정보처리방침</a></p>
-    <p class="copyright">© 2025 주식회사 나봄. All rights reserved.</p>
-  </div>
-</footer>
+    <section class="keywords">
+      <div class="centered">
+        <h2>병원 콘텐츠, 많다고 성과 나는 거 아닙니다</h2>
+        <p>우리는 '환자 내원'이라는 목적에 집중합니다</p>
+        <div class="tags">
+          <span>📊 전략</span>
+          <span>✍️ 콘텐츠</span>
+          <span>📈 유입</span>
+          <span>🏥 내원</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="content-box">
+        <h2>우리는 단순히 광고를 집행하지 않습니다</h2>
+        <p>병원이 '잘 보이고, 잘 예약되는 구조'를 설계합니다</p>
+        <ul>
+          <li>병원 맞춤 진단 리포트 제공</li>
+          <li>키워드 기반 콘텐츠 전략 수립</li>
+          <li>블로그 / 인스타 / 유튜브 통합 운영</li>
+          <li>타겟 맞춤 검색광고 및 SNS광고 세팅</li>
+          <li>실시간 피드백 기반 자동화 리포트</li>
+          <li>리뷰·노출·예약 전환까지 결과 중심 운영</li>
+        </ul>
+        <div class="cta-box">
+          <h3>병원 로비 꽉 채우고 싶으시죠?</h3>
+          <p>예약, 유입, 콘텐츠, 광고<br>우리는 '내원'만 보고 설계합니다</p>
+          <a href="#contact" class="cta">병원 로비 채우는 전략 받아보기</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="form-box">
+        <h2>우리 병원 로비 꽉 채우기</h2>
+        <p>폼에 간단히 남겨주시면<br>지금 병원 상황부터 함께 확인해드릴게요</p>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+          <input type="text" name="name" placeholder="성함 및 직책 (예: 김현진 병원장)" required />
+          <input type="text" name="hospital" placeholder="병원명 (예: 청담늘예쁨의원)" required />
+          <input type="tel" name="phone" placeholder="연락처 (예: 010-1234-5678)" required />
+          <input type="email" name="email" placeholder="이메일 (선택)" />
+          <button type="submit">병원 로비 채우는 전략 받아보기</button>
+        </form>
+        <p class="privacy-consent">
+          ※ 입력하신 정보는 상담 및 병원 맞춤 전략 제공을 위한 용도로만 사용되며, 외부에 공유되지 않습니다.  
+          <br />개인정보 수집 및 이용에 동의합니다. 
+          (<a href="/privacy.html" target="_blank">개인정보처리방침 보기</a>)
+        </p>
+        <p class="note">* 병원 마케팅 전담팀이 직접 확인하고 24시간 이내 연락드립니다.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-info">
+      <p>상호: 주식회사 나봄 | 대표: 김현진 | 사업자등록번호: 560-87-02893</p>
+      <p>주소: 서울특별시 강남구 테헤란로 123, 9층 | 통신판매업신고번호: 제2025-서울강남-0000호</p>
+      <p>대표전화: 070-4022-0040 | 이메일: nabom0217@gmail.com</p>
+      <p><a href="/privacy.html" target="_blank">개인정보처리방침</a></p>
+      <p class="copyright">© 2025 주식회사 나봄. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
