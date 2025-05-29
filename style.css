@@ -117,3 +117,14 @@ input, button {
   font-size: 0.95rem;
   color: #555;
 }
+.services-list {
+  list-style: none;
+  padding: 0;
+  margin: 40px auto;
+  max-width: 700px;
+  text-align: center;
+}
+.services-list li {
+  font-size: 1.125rem;
+  margin-bottom: 16px;
+}
