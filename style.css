@@ -1,35 +1,64 @@
 body {
   margin: 0;
-  font-family: 'Noto Sans KR', sans-serif;
-  background: #0d1b2a;
-  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  background: #ffffff;
+  color: #0d1b2a;
 }
 .container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.hero {
+  background: linear-gradient(to bottom, #fff5ef, #ffffff);
+  padding: 100px 20px 120px;
+  text-align: left;
+}
+.text-box {
   max-width: 960px;
   margin: auto;
-  padding: 40px 20px;
-}
-section {
-  padding: 100px 0;
-  text-align: center;
 }
 .hero h1 {
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 3.5rem;
+  font-weight: 700;
   margin-bottom: 1rem;
+  color: #0d1b2a;
 }
 .hero p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  color: #444;
 }
-h2 {
-  font-size: 2.25rem;
+.keywords {
+  background: #ffffff;
+  text-align: center;
+  padding: 100px 20px;
+}
+.keywords h2 {
+  font-size: 2rem;
   font-weight: 600;
 }
-h3 {
-  font-size: 1.75rem;
-  margin-top: 1.5rem;
+.keywords p {
+  font-size: 1.125rem;
+  margin-top: 0.5rem;
 }
-p {
+.tags {
+  margin-top: 2rem;
+}
+.tags span {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 1.25rem;
+}
+.services {
+  background: #0d1b2a;
+  color: #ffffff;
+  padding: 100px 20px;
+  text-align: center;
+}
+.services h2 {
+  font-size: 2rem;
+}
+.services p {
   font-size: 1.125rem;
 }
 ul {
@@ -37,6 +66,7 @@ ul {
   max-width: 700px;
   margin: 30px auto;
   font-size: 1.125rem;
+  line-height: 1.8;
 }
 .cta, button {
   background: #ff6b00;
@@ -48,11 +78,16 @@ ul {
   text-decoration: none;
   display: inline-block;
   margin-top: 2rem;
+  transition: transform 0.2s ease;
 }
-.tags span {
-  display: inline-block;
-  margin: 12px;
-  font-size: 1.25rem;
+.cta:hover, button:hover {
+  transform: scale(1.05);
+}
+.contact {
+  background: #ffffff;
+  color: #0d1b2a;
+  text-align: center;
+  padding: 100px 20px;
 }
 form {
   display: flex;
@@ -70,5 +105,5 @@ input, button {
 .note {
   margin-top: 1.5rem;
   font-size: 0.95rem;
-  color: #ccc;
+  color: #555;
 }
